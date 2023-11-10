@@ -24,7 +24,7 @@ services:
       - "80:80/tcp"
     environment:
       TZ: 'America/Chicago'
-      # WEBPASSWORD: 'set a secure password here or it will be random' #This line was uncommented and had proper password set.
+      # WEBPASSWORD: 'set a secure password here or it will be random' #This line was uncommented and was given a proper password.
     # Volumes store your data between container upgrades
     volumes:
       - './etc-pihole:/etc/pihole'
